@@ -1,0 +1,56 @@
+body{
+    background: #FFFAFA;
+    color: #696969;
+}
+
+.container{
+    width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 400px;
+    }
+  }
+
+.button, .roleButton{
+    text-align: center;
+    align-item:center;
+}
+
+.btn.btn-primary{
+    background: #5F9EA0;
+    border: #5F9EA0;
+    padding-left: 13px;
+    padding-right: 14px;
+    margin-right: 3px;
+}
+
+.btn.btn-danger{
+    background: #CD5C5C;
+    border: #CD5C5C;
+}
+
+.bgimage{
+    background: url("img/view.jpg");
+    background-size: cover;
+}
+
+.welcome{
+    font-family: arial;
+    font-size: 50px;
+}
+
+.card-body{
+    background: #FFFAFA;
+}
+
+.form-check-input:checked {
+    background-color: #5F9EA0;
+    border-color: #5F9EA0;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
